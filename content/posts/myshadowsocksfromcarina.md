@@ -13,7 +13,7 @@ textnow提供无限的美国和加拿大短信收发，并且提供有免费的�
 
 <http://www.textnow.com/>
 
-账号：facebook账号(本人的)
+账号：facebook账号(本人的)<br />
 号码：(917) 636-7274（本人的）
 
 **安装Boot2Docker**
@@ -101,9 +101,9 @@ CONTAINER ID        IMAGE                             COMMAND                  C
 
 完成！
 
-参考：
-1，http://zzsa.net/%E5%9B%BD%E5%86%85%E5%A4%96%E4%B8%80%E4%BA%9B%E5%85%8D%E8%B4%B9%E7%BD%91%E7%BB%9C%E8%99%9A%E6%8B%9F%E7%94%B5%E8%AF%9D-%E5%85%8D%E8%B4%B9%E7%9F%AD%E4%BF%A1%E6%94%B6%E5%8F%91-%E5%85%8D%E8%B4%B9%E4%BC%A0/（免费短信收发）
-2，http://www.wengweitao.com/zai-carinashang-shi-yong-dockerda-jian-mian-fei-de-shadowsocks.html（在carina上使用Docker搭建免费的ShadowSocks）
-3，http://www.rendoumi.com/wan-quan-mian-fei-de-shadowsocksfu-wu-qi/（不花一分钱，搭建一个完全免费的Shadowsocks服务器）
-4，http://yansu.org/2014/04/10/install-docker-in-mac.html（在Mac下安装使用Docker）
-5，http://www.infoq.com/cn/articles/docker-command-line-quest（深入浅出Docker（二）：Docker命令行探秘）
+参考：<br />
+1，[免费短信收发](http://zzsa.net/%E5%9B%BD%E5%86%85%E5%A4%96%E4%B8%80%E4%BA%9B%E5%85%8D%E8%B4%B9%E7%BD%91%E7%BB%9C%E8%99%9A%E6%8B%9F%E7%94%B5%E8%AF%9D-%E5%85%8D%E8%B4%B9%E7%9F%AD%E4%BF%A1%E6%94%B6%E5%8F%91-%E5%85%8D%E8%B4%B9%E4%BC%A0/)<br />
+2，[在carina上使用Docker搭建免费的ShadowSocks](http://www.wengweitao.com/zai-carinashang-shi-yong-dockerda-jian-mian-fei-de-shadowsocks.html)<br />
+3，[不花一分钱，搭建一个完全免费的Shadowsocks服务器](http://www.rendoumi.com/wan-quan-mian-fei-de-shadowsocksfu-wu-qi/)<br />
+4，[在Mac下安装使用Docker](http://yansu.org/2014/04/10/install-docker-in-mac.html)<br />
+5，[深入浅出Docker（二）：Docker命令行探秘](http://www.infoq.com/cn/articles/docker-command-line-quest)
