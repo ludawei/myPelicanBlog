@@ -9,7 +9,7 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [('首页', '/'), ('归档', '/archives'), ('分类', '/categories'), ('标签', '/tags'), ('关于我', '/aboutme')]
 
-SUMMARY_MAX_LENGTH = 5
+SUMMARY_MAX_LENGTH = 10
 
 PATH = 'content'
 

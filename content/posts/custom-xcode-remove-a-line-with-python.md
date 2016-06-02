@@ -3,6 +3,7 @@ Date: 2015-04-10
 Tags: iOS, xcode
 Category: iOS
 Slug: custom-xcode-remove-a-line-with-python
+Summary: xcode自定义“删除一行”快捷键的python脚本
 
 一个xcode自定义“删除一行”快捷键的python脚本
 

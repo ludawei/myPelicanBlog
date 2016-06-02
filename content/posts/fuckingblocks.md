@@ -3,6 +3,7 @@ Date: 2016-05-20
 Tags: iOS
 Category: iOS
 Slug: fuckingblocks
+Summary: fucking blocks
 
 ##How Do I Declare A Block in Objective-C?
 
