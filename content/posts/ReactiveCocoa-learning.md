@@ -1,6 +1,6 @@
 Title: 响应式编程ReactiveCocoa学习
 Date: 2015-03-05
-Tags: iOS
+Tags: iOS, ReactiveCocoa
 Category: iOS
 Slug: ReactiveCocoa-learning
 

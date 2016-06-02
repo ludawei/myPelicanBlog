@@ -1,6 +1,6 @@
 Title: iOS 中常用的字符串加密方式
 Date: 2015-01-21
-Tags: iOS
+Tags: iOS, 加密
 Category: iOS
 Slug: ios-encode
 

@@ -1,7 +1,7 @@
 Title: 使用pelican在Github pages上搭建博客遇到的坑
 Date: 2016-04-26
-Tags: pelican, Github pages, python
-Category: pelican, blog
+Tags: pelican, Github.io, python
+Category: pelican
 Slug: 使用pelican在Github pages上搭建博客遇到的坑
 Summary: 使用pelican在Github pages上搭建博客遇到的坑
 
@@ -97,3 +97,20 @@ html:
 	cp $(DIR_TO_COPY)/* $(OUTPUTDIR)
 ```
 这样每次make html时，都会自动复制DIR_TO_COPY中的文件到OUTPUTDIR目录下了
+
+####**给每个分类添加文章的数目（16/06/02更新）**
+最终效果图：
+![img](../images/2016_06_02_18_13_40.png)
+
+修改主题目录下对应位置的模板文件`sidebar.html`：
+```
+<h4>分类</h4>
+{% if categories %}
+<ul class="blank">
+	{% for cat, null in categories %}
+		<li><a href="{{ SITEURL }}/{{ cat.url|e }}">{{ cat }}</a>（{{ null|length }}）</li>
+	{% endfor %}
+</ul>
+{% endif %}
+```
+`（{{ null|length }}）`即为新添加的数目,Done!

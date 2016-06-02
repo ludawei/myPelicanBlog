@@ -1,6 +1,6 @@
 Title: 浦公英 - ios打包测试工具
 Date: 2015-01-19
-Tags: iOS打包
+Tags: iOS, 打包, 测试
 Category: iOS
 Slug: ios-Testing-iOS-simple-pgyer
 

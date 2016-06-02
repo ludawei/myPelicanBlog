@@ -1,6 +1,6 @@
 Title: iOS开发中用到的开源库（整理）
 Date: 2015-01-22
-Tags: iOS
+Tags: iOS, libs
 Category: iOS
 Slug: ios-third-libs-arrange
 

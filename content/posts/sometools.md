@@ -1,7 +1,7 @@
 Title: 一些实用工具
 Date: 2016-05-25
-Tags: tools
-Category: tools
+Tags: 工具
+Category: 工具
 Slug: sometools
 Summary: 两个有趣的东东
 

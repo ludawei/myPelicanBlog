@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'admin'
-SITENAME = u"分享是美德"
+SITENAME = u"分享即美德"
 
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
@@ -49,9 +49,9 @@ THEME = "/Users/ludawei/pelican-themes/gum"
 
 
 # 插件路径
-PLUGIN_PATHS = ['/Users/ludawei/pelican-plugins']
-# 添加插件
-PLUGINS = ['tag_cloud',]
+# PLUGIN_PATHS = ['/Users/ludawei/pelican-plugins']
+# # 添加插件
+# PLUGINS = ['tag_cloud',]
 
 # tag_cloud 配置(自己个性配置)
 DISPLAY_TAGS_INLINE = True
