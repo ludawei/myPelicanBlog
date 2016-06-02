@@ -3,7 +3,7 @@ Date: 2016-06-02
 Tags: mac, mysql
 Category: pelican, blog
 Slug: mac 安装mysql后root密码问题
-Summary: mac 安装mysql后root密码问题 (解决方法)
+Summary: mac 安装mysql后root密码问题。<br />问题描述：mac上新安装的mysql, 在终端使用命令：`mysql -u root -p` 无法连接到mysql数据库；<br />解决方法：修改密码
 
 问题描述：mac上新安装的mysql, 在终端使用命令：`mysql -u root -p` 无法连接到mysql数据库；
 

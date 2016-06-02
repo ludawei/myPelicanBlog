@@ -3,7 +3,7 @@ Date: 2016-06-02
 Tags: iOS
 Category: iOS
 Slug: MKMapView经纬引起的一个bug
-Summary: MKMapView边界经纬度引起的一个bug (解决方法)
+Summary: MKMapView边界经纬度引起的一个bug (解决方法)<br />原因应该是MKMapView默认的 纬度 范围是（-180 ~ 180），包含-180，但不包含180，故认为180的纬度是无效的。<br />解决方法就是将180变为-180（因为两者是相等的）
 
 错误提示：
 ```
