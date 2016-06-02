@@ -65,8 +65,8 @@ help:
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 	cp $(DIR_TO_COPY)/* $(OUTPUTDIR)
-	mv $(OUTPUTDIR)/index.html $(OUTPUTDIR)/index1.html
-	mv $(OUTPUTDIR)/archives.html $(OUTPUTDIR)/index.html
+	# mv $(OUTPUTDIR)/index.html $(OUTPUTDIR)/index1.html
+	# mv $(OUTPUTDIR)/archives.html $(OUTPUTDIR)/index.html
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
