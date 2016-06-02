@@ -73,7 +73,7 @@ Name: 2ede2591-1ec0-4c2b-a3ef-59697ff02ba7-n1
 通过Docker安装shadowsocks非常方便，只需要一个命令：
 
 ```
-docker run -d --name shadowsocks -p 8989:8989 oddrationale/docker-shadowsocks -s 0.0.0.0 -p 8989 -k ludawei -m aes-256-cfb
+docker run -d --name shadowsocks -p 8989:8989 oddrationale/docker-shadowsocks -s 0.0.0.0 -p 8989 -k xxxxxx -m aes-256-cfb
 ```
 
 -p是设置shadowsocks的服务器端口号；-k后面设置自己的密码。
