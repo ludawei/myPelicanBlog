@@ -17,10 +17,8 @@ https://v1.hitokoto.cn
 
 #### **2，随机得到一张图片**
 http://lorempixel.com/200/200/  
-https://source.unsplash.com/random  
-https://source.unsplash.com/random/200x200  
-https://www.xwboke.cn/api/api.php  
-https://picsum.photos/200/300/?random  
+https://source.unsplash.com/random/200x200    
+https://picsum.photos/200/200/?random  
 http://img.xjh.me/random_img.php  
 
 获取指定QQ的头像：  
