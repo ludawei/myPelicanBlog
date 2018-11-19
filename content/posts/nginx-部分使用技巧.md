@@ -1,5 +1,5 @@
 Title: nginx 部分使用技巧
-Date: 2018-09-17
+Date: 2018-09-12
 Tags: linux, nginx
 Category: nginx
 Slug: linux-nginx-tips

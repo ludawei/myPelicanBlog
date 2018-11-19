@@ -1,5 +1,5 @@
 Title: mac 安装mysql后root密码问题
-Date: 2016-06-02
+Date: 2016-08-22
 Tags: mac, mysql
 Category: mysql
 Slug: mac 安装mysql后root密码问题

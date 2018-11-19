@@ -1,5 +1,5 @@
 Title: MKMapView经纬度引起的一个bug
-Date: 2016-06-02
+Date: 2016-07-12
 Tags: iOS, bug
 Category: iOS
 Slug: MKMapView经纬引起的一个bug

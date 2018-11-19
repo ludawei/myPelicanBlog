@@ -1,11 +1,12 @@
 Title: 一些有趣的api
-Date: 2018-11-16
+Date: 2018-11-19
 Tags: api, 工具
 Category: 其它
 Slug: some-fun-api
 
 #### **1，随机得到一句话**
-https://hitokoto.cn/api
+https://v1.hitokoto.cn  
+接口文档:[https://hitokoto.cn/api](https://hitokoto.cn/api)
 
 一言网(Hitokoto.cn)创立于2016年，隶属于萌创Team，目前网站主要提供一句话服务。
 
@@ -15,11 +16,11 @@ https://hitokoto.cn/api
 或是感动，或是开心，有或是单纯的回忆。来到这里，留下你所喜欢的那一句句话，与大家分享，这就是一言存在的目的。
 
 #### **2，随机得到一张图片**
-http://lorempixel.com/200/200/
-https://source.unsplash.com/random
-https://source.unsplash.com/random/200x200
-https://www.xwboke.cn/api/api.php
-https://picsum.photos/200/300/?random
+http://lorempixel.com/200/200/  
+https://source.unsplash.com/random  
+https://source.unsplash.com/random/200x200  
+https://www.xwboke.cn/api/api.php  
+https://picsum.photos/200/300/?random  
 http://img.xjh.me/random_img.php  
 
 获取指定QQ的头像：  

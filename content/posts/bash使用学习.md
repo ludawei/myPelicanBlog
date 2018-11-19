@@ -1,5 +1,5 @@
 Title: bash使用学习
-Date: 2018-10-20
+Date: 2018-10-23
 Tags: linux, bash
 Category: bash
 Slug: linux-bash-use-tips
