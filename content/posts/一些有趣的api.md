@@ -38,6 +38,8 @@ http://api.jisuapi.com/tangshi/search
 https://github.com/chenyuntc/pytorch-book/tree/master/chapter7-GAN生成动漫头像  
 https://github.com/chenyuntc/pytorch-book/tree/master/chapter9-神经网络写诗(CharRNN)  
 
+藏头诗接口：http://t.davhui.top/app/tangshi/一二三四  
+
 参考网站：  
 https://hitokoto.cn/api  
 https://blog.csdn.net/qq_38318303/article/details/80066619  
