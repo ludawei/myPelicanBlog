@@ -1,5 +1,6 @@
 Title: ffmpeg使用命令记录
 Date: 2018-05-08
+Modify: 2019-03-08
 Tags: ffmpeg
 Category: ffmpeg
 Slug: ffmpeg-use
@@ -26,6 +27,21 @@ ffmpeg -f gdigrab -framerate 30 -offset_x 0 -offset_y 0 -video_size 1600x900 -i 
 -desktop：告诉ffmpeg我们录的是屏幕，而不是一个窗口(可以录制一个窗口，不过得用窗口的ID)。
 说明：帧率是和格式相关的，比如我用mpg格式30帧就很清楚，如果用mp4则需要60帧。
 
+#得到视频时长
+ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 center.mp4
+#剪切mp3音频文件（取前60.350000秒）
+ffmpeg -t 60.350000 -i bg.mp3 center_bg.mp3
+#视频mp4插入音频mp3
+ffmpeg -y -i center.mp4 -i center_bg.mp3 center_1.mp4
+
+############ 以下是mp4合并方法 ############
+#mp4转ts
+ffmpeg -y -i center_1.mp4 -c copy -bsf:v h264_mp4toannexb -f mpegts 1.ts
+#合并ts
+ffmpeg -y -i "concat:0.ts|1.ts|2.ts" -c copy "output.ts"
+#ts转mp4
+ffmpeg -y -i output.ts -acodec copy -ar 44100 -ab 96k -coder ac -vbsf h264_mp4toannexb output.mp4
+
 #视频剪辑
 ffmpeg -i test.mp4 -ss 2:59:00 -codec copy -t 60 output.mp4 （取最后60秒视频）
 #修改视频码率
@@ -40,7 +56,7 @@ ffmpeg -i rtmp://test_url -c copy -f flv test.flv
 #拉流 保存视频片断
 ffmpeg  -y -i rtmp://test_url -t 3600 -c copy -flags +global_header -f segment -segment_time 1200 -segment_format_options movflags=+faststart -reset_timestamps 1 test%d.mp4
 #拉流 保存图片序列
-ffmpeg -y -i rtmp://test_url -r 1 /Users/ludawei/Desktop/2222/out%03d.jpg
+ffmpeg -y -i rtmp://test_url -r 1 dest_dir/out%03d.jpg
 #拉流 保存截图
 ffmpeg -i rtmp://test_url -y -t 0.001 -ss 1 -f image2 -r 1 test.jpg
 #拉流再推流
